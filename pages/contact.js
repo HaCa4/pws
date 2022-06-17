@@ -6,12 +6,10 @@ export default function Home() {
     <div className="pageContainer">
       <div className="splitContainer">
         <div className={styles.leftTextBox}>
-          <Typography variant="h3" className={styles.title}>
-            I would love to hear from you
-          </Typography>
-          <Typography variant="h5" className={styles.title2}>
+          <div className={styles.title}>I would love to hear from you</div>
+          <div variant="h5" className={styles.title2}>
             You can check my links
-          </Typography>
+          </div>
         </div>
       </div>
       <div className="splitContainer">

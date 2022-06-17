@@ -7,11 +7,9 @@ const ReferenceCard = ({ styles, person }) => {
     <>
       <img src={person.src} alt={person.name} className={styles.referenceAvatar} />
       <div className={styles.referenceContentBox}>
-        <Typography variant="h5" className={styles.referenceName}>
-          {person.name}
-        </Typography>
-        <Typography className={styles.referenceTitle}>{person.title}</Typography>
-        <Typography className={styles.referenceJob}>{person.job}</Typography>
+        <div className={styles.referenceName}>{person.name}</div>
+        <div className={styles.referenceTitle}>{person.title}</div>
+        <div className={styles.referenceJob}>{person.job}</div>
       </div>
       <FaChevronRight className={styles.referenceArrow} />
     </>

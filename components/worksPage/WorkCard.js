@@ -1,4 +1,3 @@
-import { Avatar, Typography } from "@mui/material";
 import { FaChevronRight } from "react-icons/fa";
 
 const WorkCard = ({ styles, work, index }) => {
@@ -6,11 +5,11 @@ const WorkCard = ({ styles, work, index }) => {
     <>
       <img src={work.src} alt={work.name} className={styles.workAvatar} />
       <div className={styles.workContentBox}>
-        <Typography variant="h5" className={styles.workName}>
+        <div variant="h5" className={styles.workName}>
           {work.name}
-        </Typography>
-        <Typography className={styles.workTitle}>{work.title}</Typography>
-        <Typography className={styles.workJob}>{work.job}</Typography>
+        </div>
+        <div className={styles.workTitle}>{work.title}</div>
+        <div className={styles.workJob}>{work.job}</div>
       </div>
       <FaChevronRight className={styles.workArrow} />
     </>
