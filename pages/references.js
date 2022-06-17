@@ -11,11 +11,11 @@ export default function References() {
         <Typography className={styles.messageContent} variant="h5">
           {referenceList[x].message}
         </Typography>
-        <Button className={styles.messageLink}>
+        <button className={styles.messageLink}>
           <a href={`mailto:${referenceList[x].mail}`} style={{ textDecoration: "none" }}>
             Would you like to ask {`${referenceList[x].name}`} about me?
           </a>
-        </Button>
+        </button>
       </div>
     );
   };

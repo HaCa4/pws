@@ -5,7 +5,7 @@ import Image from "next/image";
 const ReferenceCard = ({ styles, person }) => {
   return (
     <>
-      <Avatar src={person.src} alt={person.name} className={styles.referenceAvatar} />
+      <img src={person.src} alt={person.name} className={styles.referenceAvatar} />
       <div className={styles.referenceContentBox}>
         <Typography variant="h5" className={styles.referenceName}>
           {person.name}

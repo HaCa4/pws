@@ -1,5 +1,5 @@
 import styles from "../styles/Works.module.css";
-import { Avatar, Button } from "@mui/material";
+import { Avatar } from "@mui/material";
 import { useState } from "react";
 import WorkCard from "../components/worksPage/WorkCard";
 import { worksList } from "../constants/constants";
@@ -9,12 +9,12 @@ export default function Works() {
   const renderMessage = (x) => {
     return (
       <div className={styles.workBox}>
-        <Avatar src={worksList[selected].src} className={styles.workImage} variant="h5" />
-        <Button className={styles.workLink}>
+        <img src={worksList[selected].src} className={styles.workImage} variant="h5" />
+        <div className={styles.workLink}>
           <a href={worksList[x].link} style={{ textDecoration: "none" }}>
             Would you like to visit website?
           </a>
-        </Button>
+        </div>
       </div>
     );
   };

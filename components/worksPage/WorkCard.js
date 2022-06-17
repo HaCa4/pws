@@ -4,7 +4,7 @@ import { FaChevronRight } from "react-icons/fa";
 const WorkCard = ({ styles, work, index }) => {
   return (
     <>
-      <Avatar src={work.src} alt={work.name} className={styles.workAvatar} />
+      <img src={work.src} alt={work.name} className={styles.workAvatar} />
       <div className={styles.workContentBox}>
         <Typography variant="h5" className={styles.workName}>
           {work.name}
