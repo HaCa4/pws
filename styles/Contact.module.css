@@ -1,0 +1,35 @@
+.leftTextBox {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  font-weight: 900;
+  color: rgb(235, 119, 12);
+  margin-bottom: 1.5rem;
+}
+.title2 {
+  font-weight: 400;
+  color: rgb(235, 119, 12);
+}
+.rightTextBox {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.link {
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.link:hover {
+  font-weight: 900;
+  color: black;
+  margin-bottom: 1.5rem;
+}

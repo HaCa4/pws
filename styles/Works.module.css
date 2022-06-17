@@ -1,0 +1,93 @@
+.workCardContainer {
+  width: 72%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.15rem;
+}
+.workCard {
+  width: 95%;
+  height: 160px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 0 0 15px;
+  cursor: pointer;
+}
+.workCard:hover {
+  background-color: rgb(235, 119, 12, 0.4);
+}
+.workCard:active {
+  background-color: rgb(235, 119, 12, 0.4);
+}
+
+.workAvatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 120px;
+  justify-self: start;
+  object-fit: cover;
+}
+.workContentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2px 25px;
+  flex-grow: 1;
+  text-align: left;
+}
+.workName {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.workTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.workJob {
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+.workArrow {
+  color: rgb(235, 119, 12);
+  font-size: 30px;
+  margin-right: 1rem;
+}
+/* RIGHT */
+
+.workBox {
+  width: 72%;
+  height: 400px;
+  background: rgba(14, 14, 14, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 4.15rem;
+}
+.workImage {
+  color: white;
+  width: 80%;
+  height: 70%;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+.workLink {
+  color: white;
+  background-color: rgba(14, 14, 14, 0.6);
+  width: 70%;
+  font-weight: 700;
+  padding: 5 10px;
+}
+.workLink:hover {
+  background-color: black;
+}
