@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { div } from "@mui/material";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -9,9 +9,9 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navItemsContainer">
         <Link href="/">
-          <Typography
+          <div
             onClick={(e) => setSelected(e.target.textContent)}
-            sx={{
+            style={{
               color: `${selected === "HOME" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
@@ -22,12 +22,12 @@ const Navbar = () => {
             variant="h6"
           >
             HOME
-          </Typography>
+          </div>
         </Link>
         <Link href="/works">
-          <Typography
+          <div
             onClick={(e) => setSelected(e.target.textContent)}
-            sx={{
+            style={{
               color: `${selected === "WORKS" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
@@ -38,12 +38,12 @@ const Navbar = () => {
             variant="h6"
           >
             WORKS
-          </Typography>
+          </div>
         </Link>
         <Link href="/references">
-          <Typography
+          <div
             onClick={(e) => setSelected(e.target.textContent)}
-            sx={{
+            style={{
               color: `${selected === "REFERENCES" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
@@ -54,12 +54,12 @@ const Navbar = () => {
             variant="h6"
           >
             REFERENCES
-          </Typography>
+          </div>
         </Link>
         <Link href="/contact">
-          <Typography
+          <div
             onClick={(e) => setSelected(e.target.textContent)}
-            sx={{
+            style={{
               color: `${selected === "CONTACT" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
@@ -70,7 +70,7 @@ const Navbar = () => {
             variant="h6"
           >
             CONTACT
-          </Typography>
+          </div>
         </Link>
       </div>
     </div>
