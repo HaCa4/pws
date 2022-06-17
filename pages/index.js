@@ -13,7 +13,7 @@ export default function Home() {
         </div>
       </div>
       <div className="splitContainer">
-        <Avatar src="/cagri-o.jpeg" alt="Çağrı Özağar" className={styles.avatar} />
+        <img src="/cagri-o.jpeg" alt="Çağrı Özağar" className={styles.avatar} />
         <div className={styles.rightTextBox}>
           <p className={styles.name}>Çağrı Özağar</p>
           <p className={styles.job}>Frontend Developer</p>
