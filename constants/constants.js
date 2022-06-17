@@ -31,14 +31,6 @@ export const referenceList = [
 export const worksList = [
   {
     id: "0",
-    name: "Rasyonel App",
-    title: "Software Company",
-    job: "Based in Istanbul, Turkey",
-    src: "/rasyo.png",
-    link: "https://rasyonelapp.com",
-  },
-  {
-    id: "1",
     name: "Mars Investment",
     title: "Investment Company",
     job: "Based in Istanbul, Turkey",
@@ -46,12 +38,20 @@ export const worksList = [
     link: "https://www.marsinvestment.com.tr/en",
   },
   {
-    id: "2",
+    id: "1",
     name: "Heltha Global",
     title: "Medical Tourism Company",
     job: "Based in Istanbul, Turkey",
     src: "/healtha.jpg",
     link: "https://healthaglobal.com/",
+  },
+  {
+    id: "2",
+    name: "Rasyonel App",
+    title: "Software Company",
+    job: "Based in Istanbul, Turkey",
+    src: "/rasyo.png",
+    link: "https://rasyonelapp.com",
   },
 ];
 

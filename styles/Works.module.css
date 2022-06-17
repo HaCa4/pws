@@ -108,7 +108,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -2.9rem;
   }
   .workCard {
     width: 95%;
@@ -119,7 +118,6 @@
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 1rem;
     padding: 15px 0;
   }
   .workCard:active {
@@ -165,7 +163,6 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 0 20px;
-    margin-top: -5rem;
   }
   .workImage {
     color: white;

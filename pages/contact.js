@@ -22,9 +22,7 @@ export default function Home() {
             style={{ textDecoration: "none" }}
             rel="referer"
           >
-            <Typography className={styles.link} variant="h3">
-              LinkedIn
-            </Typography>
+            <div className={styles.link}>LinkedIn</div>
           </Link>
           <Link
             href="https://github.com/HaCa4"
@@ -32,9 +30,7 @@ export default function Home() {
             target="_blank"
             rel="referer"
           >
-            <Typography className={styles.link} variant="h3">
-              Github
-            </Typography>
+            <div className={styles.link}>Github</div>
           </Link>
           <Link
             href="mailTo:ozagarcagri@gmail.com"
@@ -42,9 +38,7 @@ export default function Home() {
             target="_blank"
             rel="referer"
           >
-            <Typography className={styles.link} variant="h3">
-              Mail
-            </Typography>
+            <div className={styles.link}>Mail</div>
           </Link>
           <Link
             href="/cagri-o.pdf"
@@ -52,9 +46,7 @@ export default function Home() {
             target="_blank"
             rel="referer"
           >
-            <Typography className={styles.link} variant="h3">
-              Resume
-            </Typography>
+            <div className={styles.link}>Resume</div>
           </Link>
         </div>
       </div>
