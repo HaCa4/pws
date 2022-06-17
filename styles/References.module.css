@@ -81,6 +81,12 @@
   width: 90%;
   font-weight: 700;
   padding: 5 10px;
+  text-align: center;
+  border-radius: 5px;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .messageLink:hover {
   background-color: black;
