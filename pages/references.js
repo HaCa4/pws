@@ -1,5 +1,5 @@
 import styles from "../styles/References.module.css";
-import ReferenceCard from "../components/referencesPage/referenceCard";
+import ReferenceCard from "../components/referencesPage/ReferenceCard";
 import { Button, Typography } from "@mui/material";
 import { useState } from "react";
 import { referenceList } from "../constants/constants";
