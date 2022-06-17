@@ -25,7 +25,12 @@ export default function Works() {
         <div className="headLineLeft"> Some of my</div>
         <div className={styles.workCardContainer}>
           {worksList.map((work, index) => (
-            <div onClick={() => setSelected(index)} key={index} className={styles.workCard}>
+            <div
+              onClick={() => setSelected(index)}
+              key={index}
+              style={{ backgroundColor: `${selected == index ? "rgb(235, 119, 12, 0.4)" : ""}` }}
+              className={styles.workCard}
+            >
               <WorkCard work={work} styles={styles} />
             </div>
           ))}

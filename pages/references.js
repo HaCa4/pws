@@ -27,7 +27,12 @@ export default function References() {
         </div>
         <div className={styles.referenceCardContainer}>
           {referenceList.map((person, index) => (
-            <div onClick={() => setSelected(index)} key={index} className={styles.referenceCard}>
+            <div
+              onClick={() => setSelected(index)}
+              key={index}
+              className={styles.referenceCard}
+              style={{ backgroundColor: `${selected == index ? "rgb(235, 119, 12, 0.4)" : ""}` }}
+            >
               <ReferenceCard key={index} person={person} styles={styles} />
             </div>
           ))}
