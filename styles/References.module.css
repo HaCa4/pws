@@ -91,3 +91,98 @@
 .messageLink:hover {
   background-color: black;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .referenceCardContainer {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .referenceCard {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .referenceCard:active {
+    background-color: rgb(235, 119, 12, 0.4);
+  }
+
+  .referenceAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+  }
+  .referenceContentBox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 0.4rem;
+  }
+  .referenceName {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+  .referenceTitle {
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+  }
+  .referenceJob {
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    /* display: none; */
+  }
+  .referenceArrow {
+    /* color: rgb(235, 119, 12);
+    font-size: 30px;
+    margin-right: 1rem; */
+    display: none;
+  }
+  /* RIGHT */
+
+  .messageBox {
+    width: 95%;
+    height: 350px;
+    background: rgba(14, 14, 14, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 15px;
+  }
+  .messageContent {
+    color: white;
+    padding: 0 10px;
+    font-weight: 600;
+  }
+  .messageLink {
+    color: white;
+    background-color: rgba(14, 14, 14, 0.6);
+    width: 100%;
+    font-weight: 700;
+    padding: 5 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+}

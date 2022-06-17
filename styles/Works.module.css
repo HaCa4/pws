@@ -97,3 +97,94 @@
 .workLink:hover {
   background-color: black;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .workCardContainer {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.9rem;
+  }
+  .workCard {
+    width: 95%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding: 15px 0;
+  }
+  .workCard:active {
+    background-color: rgb(235, 119, 12, 0.4);
+  }
+
+  .workAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    justify-self: start;
+    object-fit: cover;
+  }
+  .workContentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .workName {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+  }
+  .workTitle {
+    display: none;
+  }
+  .workJob {
+    display: none;
+  }
+  .workArrow {
+    display: none;
+  }
+  /* RIGHT */
+
+  .workBox {
+    width: 90%;
+    height: 250px;
+    background: rgba(14, 14, 14, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: -5rem;
+  }
+  .workImage {
+    color: white;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    opacity: 0.85;
+  }
+  .workLink {
+    color: white;
+    background-color: rgba(14, 14, 14, 0.6);
+    width: 70%;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+}

@@ -6,34 +6,17 @@ const Navbar = () => {
   const [selected, setSelected] = useState();
   console.log(selected);
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "flex-end",
-        zIndex: "1",
-        width: "100vw",
-        height: "5vh",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-evenly",
-          alignItems: "center",
-          width: "50%",
-        }}
-      >
+    <div className="navbar">
+      <div className="navItemsContainer">
         <Link href="/">
           <Typography
             onClick={(e) => setSelected(e.target.textContent)}
             sx={{
-              color: `${selected === "HOME" ? "black" : "white"}`,
+              color: `${selected === "HOME" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
               "&:hover": {
-                color: "black",
+                color: "#F5CAA3",
               },
             }}
             variant="h6"
@@ -45,11 +28,11 @@ const Navbar = () => {
           <Typography
             onClick={(e) => setSelected(e.target.textContent)}
             sx={{
-              color: `${selected === "WORKS" ? "black" : "white"}`,
+              color: `${selected === "WORKS" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
               "&:hover": {
-                color: "black",
+                color: "#F5CAA3",
               },
             }}
             variant="h6"
@@ -61,11 +44,11 @@ const Navbar = () => {
           <Typography
             onClick={(e) => setSelected(e.target.textContent)}
             sx={{
-              color: `${selected === "REFERENCES" ? "black" : "white"}`,
+              color: `${selected === "REFERENCES" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
               "&:hover": {
-                color: "black",
+                color: "#F5CAA3",
               },
             }}
             variant="h6"
@@ -77,11 +60,11 @@ const Navbar = () => {
           <Typography
             onClick={(e) => setSelected(e.target.textContent)}
             sx={{
-              color: `${selected === "CONTACT" ? "black" : "white"}`,
+              color: `${selected === "CONTACT" ? "#F5CAA3" : "white"}`,
               fontWeight: "800",
               cursor: "pointer",
               "&:hover": {
-                color: "black",
+                color: "#F5CAA3",
               },
             }}
             variant="h6"

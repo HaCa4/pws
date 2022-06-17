@@ -32,3 +32,40 @@
   font-weight: 900;
   color: black;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .leftTextBox {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.5rem;
+  }
+  .title {
+    font-weight: 900;
+    color: rgb(235, 119, 12);
+    margin-bottom: 1.5rem;
+  }
+  .title2 {
+    font-weight: 400;
+    color: rgb(235, 119, 12);
+  }
+  .rightTextBox {
+    width: 95%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .link {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    line-height: normal;
+  }
+}

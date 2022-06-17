@@ -8,9 +8,7 @@ export default function References() {
   const renderMessage = (x) => {
     return (
       <div className={styles.messageBox}>
-        <Typography className={styles.messageContent} variant="h5">
-          {referenceList[x].message}
-        </Typography>
+        <div className={styles.messageContent}>{referenceList[x].message}</div>
         <div className={styles.messageLink}>
           <a href={`mailto:${referenceList[x].mail}`} style={{ textDecoration: "none" }}>
             Would you like to ask {`${referenceList[x].name}`} about me?

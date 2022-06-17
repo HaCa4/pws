@@ -2,7 +2,7 @@ export const referenceList = [
   {
     name: "Can Turgut",
     title: "Full-Stack Developer",
-    job: "Done Services,Sweden",
+    job: "Done, Sweden",
     src: "/can.jpg",
     mail: "",
     message:
